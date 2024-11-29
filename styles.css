@@ -116,9 +116,8 @@ align-self:flex-end;
 .footerNavigation{
     text-align: center;
     width: 100%;
-    height: 100%;
     background-color: #2f2f2f;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 /* text */
@@ -185,12 +184,10 @@ font-size: 40px;
 color: #fff;
 background-color: #2f2f2f;
 border: none;
-padding: 5px;
 font-size: 20px;
 width: 72px;
 height: 33px;
 cursor: pointer;
-margin: 0 5px;
 }
 
 .buttonShort:hover{
@@ -202,10 +199,8 @@ transition: 0.5s ease;
     color: #fff;
     background-color: #2f2f2f;
     border: none;
-    padding: 5px;
     font-size: 20px;
     cursor: pointer;
-    margin: 0 5px;
     width: 120px;
     height: 33px;
 }
