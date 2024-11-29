@@ -179,6 +179,22 @@ font-size: 40px;
     font-size: 19px;
 }
 
+/* icons */
+
+#rightArrow{
+transform: rotate(-90deg);
+width: 100%;
+height: 100%;
+}
+
+#NavigationLeftArrow{
+    transform: rotate(90deg);
+}
+
+#NavigationRightArrow{
+    transform: rotate(-90deg);
+}
+
 /* pildid */
 
 #tutvustusPilt{
@@ -222,4 +238,4 @@ transition: 0.5s ease;
 .buttonMiddle:hover{
     background-color: hsl(0, 0%, 30%);
     transition: 0.5s ease;
-    }
+}
