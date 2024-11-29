@@ -104,7 +104,7 @@ align-self:flex-end;
 }
 .footerContainer{
     display: flex;
-    padding-bottom: 10%;
+    padding-bottom: 30%;
 }
 
 .footerMainContainer{
