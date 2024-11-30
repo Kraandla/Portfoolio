@@ -86,15 +86,24 @@ align-self:flex-end;
 
 /* Kogemus */
     .mainContainerKogemus{
-        flex-basis: 70%;
-    }
-
-    .mainContentContainerKogemus{
         display: flex;
         background-image: url('Pictures/kogemusPilt.avif');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
+
+    .mainContentContainerKogemus{
+        flex-basis: 70%;
+        /* display:flex;
+        justify-content: center; */
+        padding: 10% 0;
+    }
+
+    .mainContentKogemusPlacement{
+        display: flex;
+        justify-content: center;
+    }
+
 /* footer */
 
 .footer{
@@ -179,6 +188,16 @@ font-size: 40px;
     font-size: 19px;
 }
 
+.Freepik{
+    background: #A1DDF0;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    width: 33%;
+}
+
+.freepikLink{
+    color: hsl(194, 72%, 29%)
+}
 /* icons */
 
 #rightArrow{
@@ -206,6 +225,12 @@ height: 100%;
 
 .mainContentMinust #tutvustusPilt {
         height: 100%;
+}
+
+#kogemusPilt{
+    width: 100%;    
+    height: 100%;
+    border: 4px solid #A1DDF0;
 }
 
 /* buttons */
