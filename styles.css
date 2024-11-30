@@ -242,6 +242,7 @@ cursor: default;
 .Freepik{
     background: #A1DDF0;
     padding: 0 4px;
+    padding-bottom: 5px;
     width: 33%;
     cursor: default;
     margin-top: 5px;
