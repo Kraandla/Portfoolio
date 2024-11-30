@@ -244,6 +244,7 @@ cursor: default;
     padding: 5px 4px;
     width: 33%;
     cursor: default;
+    z-index: 2;
 }
 
 .freepikLink{
