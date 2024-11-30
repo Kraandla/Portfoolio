@@ -75,6 +75,7 @@
 }
 
 .mainMinustButtonContainer{
+    height: 20%;
 display: flex;
 }
 
@@ -88,6 +89,9 @@ display: flex;
     height: 70%;
 }
 
+.minustHeaderContainer{
+    height: 10%;
+}
 /* Kogemus */
     .mainContainerKogemus{
         display: flex;
@@ -180,11 +184,12 @@ display: flex;
 
 .minustHeader{
 color: #2f2f2f;
-font-size: 40px;
+font-size: 200%;
 cursor: default;
 }
 
 .tutvustusText{
+    font-size: 130%;
     margin-top: 10px;
     color: #2f2f2f;
     cursor: default;
