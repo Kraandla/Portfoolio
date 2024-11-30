@@ -27,8 +27,8 @@
         <div class="footerMainContainer">
             <div class="footerNavigation">
                 <div class="footerNavigationLeftSide">
-                    <a href="" class="navigationF&BImage">
-                        <img id="NavigationRightArrow" src="Pictures/downArrow.svg" alt="NEXT"></a>
+                    <a href="Pages/Kogemus/KogemusIndex.html" class="navigationF&BImage">
+                        <img id="NavigationLeftArrow" src="Pictures/downArrow.svg" alt="NEXT"></a>
                 </div>
                 <div class="footerNavigationMain">
                     <a href="" class="navigationLinkActive">MINUST</a>
@@ -37,7 +37,7 @@
                     <a href="" class="navigationLinks">KONTAKT</a>
                     </div>
                 <div class="footerNavigationRightSide">
-                    <a href="Pages/Kogemus/KogemusIndex.html" class="navigationF&BImage">
+                    <a href="" class="navigationF&BImage">
                         <img id="NavigationRightArrow" src="Pictures/downArrow.svg" alt="NEXT"></a>
                 </div>
             </div>
