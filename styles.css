@@ -241,10 +241,10 @@ cursor: default;
 
 .Freepik{
     background: #A1DDF0;
-    padding: 5px 4px;
+    padding: 0 4px;
     width: 33%;
     cursor: default;
-    z-index: 2;
+    margin-top: 5px;
 }
 
 .freepikLink{
