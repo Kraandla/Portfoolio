@@ -165,7 +165,7 @@ display: flex;
     }
 
     .mainContentKogemus{
-        margin: 10px 10px;
+        margin: 10px 30px 20px 30px;
     }
 
 
@@ -282,20 +282,34 @@ padding: 25% 0;
     color: #2f2f2f;
     font-size: 200%;
     cursor: default;
+    margin-bottom: 5px;
 }
 
 .kogemusH2{
     color: #2f2f2f;
     cursor: default;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 .kogemusP{
     color: #2f2f2f;
     cursor: default;
+    margin: 5px 0;
 }
 
 .kogemusList{
     margin-left: 20px;
     cursor: default;
+}
+
+.kogemusListNumber{
+    margin-top: 10px;
+    list-style-type: decimal;
+}
+
+.kogemusListPointOffset{
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 /* icons */
