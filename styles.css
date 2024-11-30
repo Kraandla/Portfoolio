@@ -161,8 +161,11 @@ display: flex;
 
     .mainContentContainerKogemusPages{
         flex-basis: 70%;
-        background: rgba(161, 221, 240,0.6);
-        padding: 10% 0;
+        background: rgba(161, 221, 240,0.85);
+    }
+
+    .mainContentKogemus{
+        margin: 10px 10px;
     }
 
 
@@ -266,6 +269,33 @@ text-decoration: none;
 color: #fff;
 font-size: 200%;
 padding: 25% 0;
+}
+
+/* Kogemus pages text*/
+
+.textFieldKogemus{
+    display: flexbox;
+    float: right;
+}
+
+.kogemusH1{
+    color: #2f2f2f;
+    font-size: 200%;
+    cursor: default;
+}
+
+.kogemusH2{
+    color: #2f2f2f;
+    cursor: default;
+}
+.kogemusP{
+    color: #2f2f2f;
+    cursor: default;
+}
+
+.kogemusList{
+    margin-left: 20px;
+    cursor: default;
 }
 
 /* icons */
