@@ -57,7 +57,7 @@
         margin: 20px 0;
         background: rgba(161, 221, 240, 0.7);
         /* background: rgba(236, 253, 0, 0.5); */
-        border: 2px solid rgba(7, 144, 185, 1);
+        border:2px solid rgba(161, 221, 240, 1);
         border-radius: 4px;
         height: 90%;
         width: 100%;
@@ -70,18 +70,22 @@
     background-size: 100% 100%;
 }
 
-.mainMinustLeftButtons{
+.mainMinustButtons{
     display: flex;
-    margin-top: 30%;
-    
-}
-.mainMinustRightButton{
-    margin-top: 30%;
 }
 
-.mainContentMinust .mainMinustButtonContainer{
+.mainMinustButtonContainer{
 display: flex;
-align-self:flex-end;
+}
+
+.textFieldMinust{
+    display: block;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.minustTextContainer{
+    height: 70%;
 }
 
 /* Kogemus */
@@ -178,11 +182,6 @@ align-self:flex-end;
 color: #2f2f2f;
 font-size: 40px;
 cursor: default;
-}
-
-.textFieldMinust{
-    padding-top: 20px;
-    padding-right: 10px;
 }
 
 .tutvustusText{
