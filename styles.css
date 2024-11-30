@@ -104,6 +104,27 @@ align-self:flex-end;
         justify-content: center;
     }
 
+    .kogemusPictureButton{
+        position: relative;
+    }
+
+    .kogemusPictureHover{
+        font-size: 200%;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+        border: 4px solid #A1DDF0;
+        text-align: center;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .kogemusPictureHover:hover{
+        opacity: 1;
+    }
 /* footer */
 
 .footer{
@@ -190,8 +211,7 @@ font-size: 40px;
 
 .Freepik{
     background: #A1DDF0;
-    padding-left: 4px;
-    padding-bottom: 4px;
+    padding: 5px 4px;
     width: 33%;
 }
 
@@ -227,7 +247,7 @@ height: 100%;
         height: 100%;
 }
 
-#kogemusPilt{
+.kogemusPilt{
     width: 100%;    
     height: 100%;
     border: 4px solid #A1DDF0;
