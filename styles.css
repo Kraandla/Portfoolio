@@ -139,14 +139,17 @@ display: flex;
     .mainContainerKogemusHaridus{
         display: flex;
         background-image: url('Pictures/HaridusBackground.avif');
+        background-repeat: no-repeat;
     }
     .mainContainerKogemusTöökogemus{
         display: flex;
         background-image: url('Pictures/TöökogemusBackground.avif');
+        background-repeat: no-repeat;
     }
     .mainContainerKogemusOskused{
         display: flex;
         background-image: url('Pictures/OskusedBackground.avif');
+        background-repeat: no-repeat;
     }
 
     .mainContentContainerKogemusPages{
