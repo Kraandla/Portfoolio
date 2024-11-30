@@ -133,6 +133,29 @@ display: flex;
     .kogemusPictureHover:hover{
         opacity: 1;
     }
+
+    /* Kogemus pages */
+
+    .mainContainerKogemusHaridus{
+        display: flex;
+        background-image: url('Pictures/HaridusBackground.avif');
+    }
+    .mainContainerKogemusTöökogemus{
+        display: flex;
+        background-image: url('Pictures/TöökogemusBackground.avif');
+    }
+    .mainContainerKogemusOskused{
+        display: flex;
+        background-image: url('Pictures/OskusedBackground.avif');
+    }
+
+    .mainContentContainerKogemusPages{
+        flex-basis: 70%;
+        background: rgba(161, 221, 240,0.6);
+        padding: 10% 0;
+    }
+
+
 /* footer */
 
 .footer{

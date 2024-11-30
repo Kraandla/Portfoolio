@@ -14,7 +14,7 @@
         <div class="leftSide"></div>
         <div class="mainContentContainer">
             <div class="mainContent">
-                </div>
+            
             </div>
         </div>
         <div class="rightSide"></div>
