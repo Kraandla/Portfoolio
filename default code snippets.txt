@@ -1,0 +1,47 @@
+    
+    <header class="header">
+        <div class="headerContainer">
+            <div class="leftSide"></div>
+            <div class="headerMain">
+                <a href="" class="headerText">TERE TULEMAST MINU PORTFOOLIOSSE!</a> 
+            </div>
+            <div class="rightSide"></div>
+        </div>
+    </header>
+
+  <div class="main">
+    <div class="mainContainer">
+        <div class="leftSide"></div>
+        <div class="mainContentContainer">
+            <div class="mainContent">
+                </div>
+            </div>
+        </div>
+        <div class="rightSide"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footerContainer">
+        <div class="leftSide"></div>
+        <div class="footerMainContainer">
+            <div class="footerNavigation">
+                <div class="footerNavigationLeftSide">
+                    <a href="" class="navigationF&BImage">
+                        <img id="NavigationRightArrow" src="Pictures/downArrow.svg" alt="NEXT"></a>
+                </div>
+                <div class="footerNavigationMain">
+                    <a href="" class="navigationLinkActive">MINUST</a>
+                    <a href="" class="navigationLinks">KOGEMUS</a>
+                    <a href="" class="navigationLinks">PROJEKTID</a>
+                    <a href="" class="navigationLinks">KONTAKT</a>
+                    </div>
+                <div class="footerNavigationRightSide">
+                    <a href="Pages/Kogemus/KogemusIndex.html" class="navigationF&BImage">
+                        <img id="NavigationRightArrow" src="Pictures/downArrow.svg" alt="NEXT"></a>
+                </div>
+            </div>
+        </div>
+        <div class="rightSide"></div>
+    </div>
+  </footer>
