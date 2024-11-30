@@ -76,7 +76,6 @@
 }
 
 .mainMinustButtonContainer{
-    height: 20%;
 display: flex;
 }
 
@@ -133,7 +132,7 @@ display: flex;
     .kogemusPictureHover:hover{
         opacity: 1;
     }
-    
+
     .kogemusPictureHover:active {
         background: rgba(255, 255, 255, 0.4);
         transition: 0s;
@@ -334,4 +333,8 @@ transition: 0.5s ease;
 .buttonMiddle:hover{
     background-color: hsl(0, 0%, 30%);
     transition: 0.5s ease;
+}
+
+.buttonClick{
+    flex-shrink: 0;
 }
