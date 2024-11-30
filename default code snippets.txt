@@ -28,7 +28,7 @@
             <div class="footerNavigation">
                 <div class="footerNavigationLeftSide">
                     <a href="Pages/Kogemus/KogemusIndex.html" class="navigationF&BImage">
-                        <img id="NavigationLeftArrow" src="Pictures/downArrow.svg" alt="NEXT"></a>
+                        <img id="NavigationLeftArrow" src="Pictures/downArrow.svg" alt="PREVIOUS"></a>
                 </div>
                 <div class="footerNavigationMain">
                     <a href="" class="navigationLinkActive">MINUST</a>
