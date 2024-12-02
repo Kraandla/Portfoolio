@@ -197,24 +197,23 @@ display: flex;
     display: flex;
     width: 100%;
     background-color: #2f2f2f;
-    padding: 10px 0;
 }
 
-.footerNavigationSide{
-    flex-basis: 10%;
-    width: 100%;
-    text-align: center;
-}
 .footerNavigationMain{
     flex-basis: 80%;
     text-align: center;
 }
+
 .footerNavigationSide{
     flex-basis: 10%;
     width: 100%;
     text-align: center;
 }
 
+.navigationButtonContainer{
+    position: relative;
+    left: 40%;
+}
 /* text */
 
 .headerText {
@@ -242,23 +241,35 @@ cursor: default;
 
 .navigationLinks{
     display: flex;
+    padding: 10px 0;
+}
+
+.navigationLinks:hover #NavigationRightArrow{
+    opacity: 0;
+    transition: 0.3s;
+}
+.navigationLinks:hover #NavigationLeftArrow{
+    opacity: 0;
+    transition: 0.3s;
 }
 
 .navigationLinks:hover{
     background: hsl(0, 0%, 30%);
     transition: 0.3s;
-    offset: ;
 }
 .navigationLinksText{
     text-decoration: none;
     color: #fff;
-    padding: 0 20px;
+    padding: 5px 20px;
     font-size: 19px;
+    position: relative;
+    top: 25%;
 }
 
 .navigationLinksText:hover{
     color: hsl(60, 100%, 70%);
     transition: 0.5s ease;
+    background-color: hsl(0, 0%, 30%);
 }
 
 .navigationLinkActive{
@@ -266,6 +277,8 @@ cursor: default;
     text-decoration: none;
     padding: 0 20px;
     font-size: 19px;
+    position: relative;
+    top: 25%;
 }
 
 .Freepik{
@@ -346,15 +359,34 @@ height: 100%;
 #NavigationLeftArrow{
     transform: rotate(90deg);
     position: relative;
-    left: 40%;
 }
 
 #NavigationRightArrow{
     transform: rotate(-90deg);
-    position: relative;
-    left: 40%;
 }
 
+#navigationRightArrowTransition{
+    transform: rotate(-90deg);
+    position: absolute;
+    opacity: 0;
+    left: 0%;
+}
+
+#navigationLeftArrowTransition{
+    transform: rotate(90deg);
+    position: absolute;
+    opacity: 0;
+    left: 0%;
+}
+
+.navigationLinks:hover #navigationRightArrowTransition{
+    opacity: 1;
+    transition: 0.3s;
+}
+.navigationLinks:hover #navigationLeftArrowTransition{
+    opacity: 1;
+    transition: 0.3s;
+}
 
 /* pildid */
 
