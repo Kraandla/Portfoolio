@@ -161,7 +161,11 @@ display: flex;
 
     .mainContentContainerKogemusPages{
         flex-basis: 70%;
-        background: rgba(161, 221, 240,0.85);
+        /* background: rgba(161, 221, 240,0.90); */
+        background: rgba(182, 224, 236, 0.95);
+        border: 4px solid #A1DDF0;
+        border-top: 0;
+        border-bottom: 0;
     }
 
     .mainContentKogemus{
