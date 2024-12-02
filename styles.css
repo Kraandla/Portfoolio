@@ -43,10 +43,15 @@
 .main{
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .mainContainer{
     background: rgb(192, 235, 247);
+}
+
+.mainContentContainer{
+    flex-basis: 70%;
 }
 /* minust */
 
@@ -68,6 +73,7 @@
 
 .mainContainerMinust {
     display: flex;
+    /* https://pixabay.com/users/sea_and_ocean-34815979/ */
     background-image: url('Pictures/oceanMinustPilt.avif');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -175,6 +181,11 @@ display: flex;
         margin: 10px 30px 20px 30px;
     }
 
+
+.mainContainerKontakt {
+    display: flex;
+    /* https://pixabay.com/users/sea_and_ocean-34815979/ */
+}
 
 /* footer */
 
@@ -434,6 +445,25 @@ height: 100%;
     border: 4px solid #A1DDF0;
 }
 
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    video{
+        width: auto;
+        height: 100%;
+    }
+}
 /* buttons */
 
 .buttonShort{
