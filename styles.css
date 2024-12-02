@@ -45,6 +45,9 @@
     height: 100%;
 }
 
+.mainContainer{
+    background: rgb(192, 235, 247);
+}
 /* minust */
 
 .mainContentContainerMinust{
@@ -197,7 +200,7 @@ display: flex;
     padding: 10px 0;
 }
 
-.footerNavigationLeftSide{
+.footerNavigationSide{
     flex-basis: 10%;
     width: 100%;
     text-align: center;
@@ -206,7 +209,7 @@ display: flex;
     flex-basis: 80%;
     text-align: center;
 }
-.footerNavigationRightSide{
+.footerNavigationSide{
     flex-basis: 10%;
     width: 100%;
     text-align: center;
@@ -238,13 +241,17 @@ cursor: default;
 }
 
 .navigationLinks{
+    display: flex;
+}
+
+.navigationLinksText{
     text-decoration: none;
     color: #fff;
     padding: 0 20px;
     font-size: 19px;
 }
 
-.navigationLinks:hover{
+.navigationLinksText:hover{
     color: hsl(60, 100%, 70%);
     transition: 0.5s ease;
 }
@@ -334,10 +341,14 @@ height: 100%;
 
 #NavigationLeftArrow{
     transform: rotate(90deg);
+    position: relative;
+    left: 50%;
 }
 
 #NavigationRightArrow{
     transform: rotate(-90deg);
+    position: relative;
+    left: 25%;
 }
 
 /* pildid */
