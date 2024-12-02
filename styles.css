@@ -244,6 +244,12 @@ cursor: default;
     padding: 10px 0;
 }
 
+.navigationLinksHidden{
+    display: flex;
+    padding:10px 0;
+    opacity: 0;
+}
+
 .navigationLinks:hover #NavigationRightArrow{
     opacity: 0;
     transition: 0.3s;
@@ -283,6 +289,21 @@ cursor: default;
 }
 
 .navigationLinkActive:hover{
+    color: hsl(60, 100%, 70%);
+    background-color: hsl(0, 0%, 30%);
+}
+
+.navigationLinkActiveMute{
+    color: hsl(60, 100%, 70%);
+    text-decoration: none;
+    padding: 14px 20px;
+    padding-top: 16px;
+    font-size: 19px;
+    position: relative;
+    top: 25%;
+}
+
+.navigationLinkActiveMute:hover{
     color: hsl(60, 100%, 70%);
     background-color: hsl(0, 0%, 30%);
 }
