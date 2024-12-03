@@ -304,11 +304,8 @@ cursor: default;
 .navigationLinkActiveMute{
     color: hsl(60, 100%, 70%);
     text-decoration: none;
-    padding: 14px 20px;
-    padding-top: 16px;
+    padding: 13px 20px;
     font-size: 19px;
-    position: relative;
-    top: 25%;
 }
 
 .navigationLinkActiveMute:hover{
