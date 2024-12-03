@@ -211,12 +211,15 @@ display: flex;
 }
 
 .footerNavigationMain{
-    flex-basis: 80%;
+    flex-basis: 60%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footerNavigationSide{
-    flex-basis: 10%;
+    flex-basis: 20%;
     width: 100%;
     text-align: center;
 }
@@ -277,11 +280,8 @@ cursor: default;
 .navigationLinksText{
     text-decoration: none;
     color: #fff;
-    padding: 14px 20px;
-    padding-top: 16px;
+    padding: 13px 20px;
     font-size: 19px;
-    position: relative;
-    top: 25%;
 }
 
 .navigationLinksText:hover{
@@ -292,11 +292,8 @@ cursor: default;
 .navigationLinkActive{
     color: yellow;
     text-decoration: none;
-    padding: 14px 20px;
-    padding-top: 16px;
+    padding: 13px 20px;
     font-size: 19px;
-    position: relative;
-    top: 25%;
 }
 
 .navigationLinkActive:hover{
